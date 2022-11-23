@@ -1,0 +1,79 @@
+
+body {
+    background: #1B244A;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 60px;
+    margin: 0px;
+    width: 750px;
+
+}
+
+#home {
+    font-size: 55px;
+    text-align: center;   
+}
+
+#guest {
+    font-size: 55px; 
+    text-align: center;   
+}
+
+
+#home-score {
+    text-align: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-size: 125px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 0;
+    background: black;
+    border-radius: 10px;
+    font-weight: normal;
+}
+
+#guest-score {
+    text-align: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-size: 125px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 0;
+    background: black;
+    border-radius: 10px;
+    font-weight: normal;
+}
+
+button {
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    font-size: 40px;
+    position: relative;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 40px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#reset-el {
+  position: absolute;
+  font-size: 20px;
+}
